@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: hsl(216, 12%, 54%);
+}
+
+.caixa {
+    width: 370px;
+    height: auto;
+    background-color: hsl(216, 12%, 8%);
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 20%;
+}
+
+.caixa2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+    height: auto;
+    background-color: hsl(216, 12%, 8%);
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 20%;
+}
+
+img {
+    width: 30px;
+    padding: 10px;
+    border-radius: 100%;
+    background-color: hsl(213, 19%, 18%);
+    margin-bottom: 20px;
+}
+
+.imgobg {
+    width: 150px;
+    background: none;
+
+}
+
+.obrigado {
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(25, 97%, 53%);
+    border-radius: 20px;
+    width: fit-content;
+    padding: 10px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul {
+    color: white;
+    background-color: hsl(217, 12%, 63%);
+    border-radius: 200%;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+ul:hover {
+    background-color: hsl(25, 97%, 53%);
+}
+
+.selecionado {
+    background-color: black;
+}
+
+button {
+    background-color: hsl(25, 97%, 53%);
+    width: 100%;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.obrigadoFinal {
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#votou {
+    display: none;
+}
+
+#caixa2aparece {
+    display: none;
+}
