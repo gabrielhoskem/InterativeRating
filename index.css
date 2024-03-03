@@ -7,18 +7,21 @@
 }
 
 body {
-    background-color: hsl(216, 12%, 54%);
+    background-color: hsl(216, 12%, 8%);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .caixa {
     width: 370px;
     height: auto;
-    background-color: hsl(216, 12%, 8%);
     border-radius: 20px;
     padding: 20px;
     color: white;
-    margin: 0 auto;
-    margin-top: 20%;
+    background: linear-gradient(to top, hsl(213, 19%, 18%), 75%, rgba(39, 39, 39, 0.441));
 }
 
 .caixa2 {
@@ -27,12 +30,10 @@ body {
     align-items: center;
     width: 370px;
     height: auto;
-    background-color: hsl(216, 12%, 8%);
+    background: linear-gradient(to top, hsl(213, 19%, 18%), 75%, rgba(39, 39, 39, 0.441));
     border-radius: 20px;
     padding: 20px;
     color: white;
-    margin: 0 auto;
-    margin-top: 20%;
 }
 
 img {
@@ -77,8 +78,10 @@ li {
 }
 
 ul {
-    color: white;
-    background-color: hsl(217, 12%, 63%);
+    display: flex;
+    justify-content: center;
+    color: hsla(216, 12%, 54%);
+    background-color: hsla(216, 12%, 54%, 0.098);
     border-radius: 200%;
     padding: 10px;
     width: 40px;
@@ -89,10 +92,12 @@ ul {
 
 ul:hover {
     background-color: hsl(25, 97%, 53%);
+    color: white;
 }
 
 .selecionado {
-    background-color: black;
+    background-color: hsl(217, 12%, 63%);
+    color: white;
 }
 
 button {
